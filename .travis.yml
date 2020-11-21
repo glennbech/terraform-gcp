@@ -28,7 +28,7 @@ script:
 - |-
   set -ex;
   export TF_VAR_logz_token=$LOGZ_TOKEN
-  export STATUSCAKE_KEY=$(gcloud secrets versions access latest --secret=STATUSCAKE_APIKEY)
+  export TF_VAR_status_cake=$STATUS_CAKE
   terraform init
   terraform plan
   terraform apply --auto-approve
