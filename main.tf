@@ -10,6 +10,7 @@ resource "google_cloud_run_service" "default" {
         env {
           name = "LOGZ_TOKEN"
           value = var.logz_token
+
         }
       }
     }
