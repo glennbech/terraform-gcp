@@ -8,8 +8,7 @@ branches:
     - master
 before_install:
   -openssl aes-256-cbc -K $encrypted_32f589868c05_key -iv $encrypted_32f589868c05_iv
-  -in devops-gcp-project-296222-41ee350b7bd5.json.enc -out devops-gcp-project-296222-41ee350b7bd5.json
-  -d
+  -in devops-gcp-project-296222-41ee350b7bd5.json.enc -out devops-gcp-project-296222-41ee350b7bd5.json -d
   - curl https://sdk.cloud.google.com | bash > /dev/null
   - source "$HOME/google-cloud-sdk/path.bash.inc"
   - gcloud auth activate-service-account --key-file=devops-gcp-project-296222-41ee350b7bd5.json
