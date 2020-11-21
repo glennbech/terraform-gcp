@@ -6,6 +6,7 @@ terraform {
   }
 }
 
+
 provider "google-beta" {
   credentials = file("devops-gcp-project-296222-41ee350b7bd5.json")
   project     = "devops-gcp-project-296222"
