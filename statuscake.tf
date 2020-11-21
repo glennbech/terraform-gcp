@@ -1,5 +1,5 @@
 provider "statuscake" {
-  username = "aliiqbalno"
+  username = "kamranali95hotmailcom"
   apikey = var.status_cake
 }
 
