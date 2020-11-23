@@ -13,7 +13,7 @@ resource "google_cloud_run_service" "default" {
         }
         resources {
           limits = {
-            memory = "1 GiB"
+            memory = "512Mi"
 
           }
         }
