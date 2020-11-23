@@ -3,6 +3,7 @@ resource "google_cloud_run_service" "default" {
   location = "europe-north1"
   project = "devops-gcp-project-296222"
 
+
   template {
     spec {
       containers {
