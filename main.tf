@@ -1,5 +1,5 @@
 resource "google_cloud_run_service" "default" {
-  name = "cloudrun-srv2"
+  name = "cloudrun-srv3"
   location = "europe-north1"
   project = "devops-gcp-project-296222"
 
