@@ -1,6 +1,6 @@
 provider "github" {
   token = var.github_token
-  owner = iqbkam18
+  owner = "github"
   organization = "terraform-example"
 }
 
