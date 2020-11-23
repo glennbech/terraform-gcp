@@ -1,4 +1,4 @@
-provider "github" {
+/*provider "github" {
   token = var.github_token
   organization = "terraform-example"
 }
