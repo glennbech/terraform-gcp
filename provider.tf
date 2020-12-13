@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket = "iqbal-terraform-bucket-22"
-    prefix = "terraformstate"
+    bucket = "pgr301-terraform-state"
+    prefix = "terraformstate-10008"
     credentials = "devops-gcp-project-296222-41ee350b7bd5.json"
   }
 }
@@ -9,7 +9,7 @@ terraform {
 
 provider "google-beta" {
   credentials = file("devops-gcp-project-296222-41ee350b7bd5.json")
-  project     = "devops-gcp-project-296222"
+  project = "terraform-292215"
   version = "~> 3.0.0-beta.1"
 }
 
